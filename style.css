@@ -32,7 +32,8 @@ body {
 .image-container{
     display: grid;
     place-items: center;
-    background-color: black;
+    background: url(./assets/leaves-2.avif);
+    background-size: cover;
     color: white;
 }
 .image-container > img {
