@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    overflow: hidden;
+}
+.right-container {
+    display: grid;
+    grid-template-columns: calc(100% - 60%) auto;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--darky);
+}
